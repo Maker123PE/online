@@ -9,7 +9,7 @@ import moment from 'moment-timezone';
 import { es } from "./lib/idiomas/total-idiomas.js"
 
 
-global.botnumber = "51554898"
+global.botnumber = "51966554898"
 
 global.owner = ['51966554898', '👑𝐒𝐘𝐒𝐒𝐎𝐋𝐔𝐓𝐈𝐎𝐍𝐒™👑', true];
 
