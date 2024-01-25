@@ -9,32 +9,21 @@ import moment from 'moment-timezone';
 import { es } from "./lib/idiomas/total-idiomas.js"
 
 
-global.botnumber = ""
+global.botnumber = "51554898"
 
-global.owner = [ 
-  ['573013114854', '👑𝐂𝐑𝐄𝐀𝐃𝐎𝐑👑', true],
-  ['573218138672'],
-  ['573207200376'],
-  ['5491168758497'],
-  ['593939005387'],
-  ['51935499065'],
-  ['573106909511'],
-  ['51944167935', '🌻𝐂𝐑𝐄𝐀𝐃𝐎𝐑𝐀', true],
-  ['573001452386'],
-  ['573003014644']
-];
+global.owner = ['51966554898', '👑𝐒𝐘𝐒𝐒𝐎𝐋𝐔𝐓𝐈𝐎𝐍𝐒™👑' true];
 
-global.suittag = ['573013114854'];
-global.prems = ['573218138672'];
+global.suittag = ['51966554898'];
+global.prems = ['51966554898'];
 
 global.lenguajeSK = es //idioma de sakurabot
 
-global.packname = '𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯🌻✨️';
-global.author = '𝔇𝔦𝔢𝔤𝔬𝔒𝔣𝔦𝔠𝔦𝔞𝔩';
-global.wm = '𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯';
-global.titulowm = '𝕾𝖆𝖐𝖚𝖗𝖆-𝕭𝖔𝖙-𝕷𝖎𝖙𝖊-𝕸𝕯';
-global.titulowm2 = `𝔇𝔦𝔢𝔤𝔬𝔒𝔣𝔦𝔠𝔦𝔞𝔩`
-global.igfg = '𝔇𝔦𝔢𝔤𝔬𝔒𝔣𝔦𝔠𝔦𝔞𝔩';
+global.packname = '𝐒𝐘𝐒𝐒𝐎𝐋𝐔𝐓𝐈𝐎𝐍𝐒™😎';
+global.author = '𝐒𝐘𝐒𝐒𝐎𝐋𝐔𝐓𝐈𝐎𝐍𝐒™';
+global.wm = '𝐒𝐘𝐒𝐒𝐎𝐋𝐔𝐓𝐈𝐎𝐍𝐒™';
+global.titulowm = '𝐒𝐘𝐒𝐒𝐎𝐋𝐔𝐓𝐈𝐎𝐍𝐒™';
+global.titulowm2 = `𝐒𝐘𝐒𝐒𝐎𝐋𝐔𝐓𝐈𝐎𝐍𝐒™`
+global.igfg = '𝐒𝐘𝐒𝐒𝐎𝐋𝐔𝐓𝐈𝐎𝐍𝐒™';
 global.wait = '*🪁 𝐄𝐬𝐩𝐞𝐫𝐞 𝐄𝐬𝐭𝐚 𝐂𝐚𝐫𝐠𝐚𝐧𝐝𝐨 ฅ^•ﻌ•^ฅ...*';
 global.vs = '2.9';
 
@@ -45,7 +34,7 @@ global.imagen4 = fs.readFileSync('./Menu.png');
 global.imagen5 = fs.readFileSync('./src/+18.jpg');
 global.imagen6 = fs.readFileSync('./Menu3.png');
 
-global.mods = [];
+global.mods = ['51966554898'];
 
 //* *******Tiempo***************
 global.d = new Date(new Date + 3600000);
@@ -56,15 +45,15 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `${dia} ${fecha}\nSakuritaBot`;
-global.gt = 'SakuraBot';
-global.mysticbot = 'SakuraBot';
-global.md = 'https://github.com/diegojadibot/SakuraBotLite-MD';
-global.mysticbot = 'https://github.com/diegojadibot/SakuraBotLite-MD';
+global.wm2 = `${dia} ${fecha}\𝐒𝐘𝐒𝐒𝐎𝐋𝐔𝐓𝐈𝐎𝐍𝐒™`;
+global.gt = '𝐒𝐘𝐒𝐒𝐎𝐋𝐔𝐓𝐈𝐎𝐍𝐒™';
+global.mysticbot = '𝐒𝐘𝐒𝐒𝐎𝐋𝐔𝐓𝐈𝐎𝐍𝐒™';
+global.md = 'https://github.com/Maker123PE/SakuraBotLite-MD';
+global.mysticbot = 'https://github.com/Maker123PE/SakuraBotLite-MD';
 global.waitt = '*🪁 𝐄𝐬𝐩𝐞𝐫𝐞 𝐄𝐬𝐭𝐚 𝐂𝐚𝐫𝐠𝐚𝐧𝐝𝐨 ฅ^•ﻌ•^ฅ...*';
 global.waittt = '*🪁 𝐄𝐬𝐩𝐞𝐫𝐞 𝐄𝐬𝐭𝐚 𝐂𝐚𝐫𝐠𝐚𝐧𝐝𝐨 ฅ^•ﻌ•^ฅ...*';
 global.waitttt = '*🪁 𝐄𝐬𝐩𝐞𝐫𝐞 𝐄𝐬𝐭𝐚 𝐂𝐚𝐫𝐠𝐚𝐧𝐝𝐨 ฅ^•ﻌ•^ฅ...*';
-global.nomorown = '573013114854';
+global.nomorown = '51966554898';
 global.pdoc = ['application/vnd.openxmlformats-officedocument.presentationml.presentation', 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'application/vnd.openxmlformats-officedocument.wordprocessingml.document', 'application/vnd.ms-excel', 'application/msword', 'application/pdf', 'text/rtf'];
 global.cmenut = '❖––––––『';
 global.cmenub = '┊✦ ';
@@ -79,8 +68,8 @@ global.htki = '*⭑•̩̩͙⊱•••• ☪*';
 global.htka = '*☪ ••••̩̩͙⊰•⭑*';
 global.comienzo = '• • ◕◕════';
 global.fin = '════◕◕ • •';
-global.botdate = `*[ 📅 ] Fecha:*  ${moment.tz('America/Mexico_City').format('DD/MM/YY')}`;
-global.bottime = `*[ ⏳ ] Hora:* ${moment.tz('America/Mexico_City').format('HH:mm:ss')}`;
+global.botdate = `*[ 📅 ] Fecha:*  ${moment.tz('America/Lima').format('DD/MM/YY')}`;
+global.bottime = `*[ ⏳ ] Hora:* ${moment.tz('America/Lima').format('HH:mm:ss')}`;
 global.fgif = {key: {participant: '0@s.whatsapp.net'}, message: {'videoMessage': {'title': wm, 'h': `Hmm`, 'seconds': '999999999', 'gifPlayback': 'true', 'caption': bottime, 'jpegThumbnail': fs.readFileSync('./Menu.png')}}};
 global.multiplier = 99;
 global.flaaa = [
